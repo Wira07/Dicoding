@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let wira = {
+        name: {
+            sukma: "wira",
+            andai: "saja",
+        }
+    };
+    console.log("mari kita gendor with " + wira.name.sukma + " " + wira.name.andai)
+
+    var gugun = 10;
+    if (gugun > 100) {
+        console.log(gugun)
+    } else {
+        console.log("tidak ada")
+    }
+    var a = 1;
+    for (a = 1; a < 10; a++) {
+        console.log(a);
+    }
+    var b = 10;
+    while (b < 100) {
+        console.log(b++)
+    }
+    var c = 100;
+    do {
+        console.log(c)
+        c++;
+    } while (c < 1000);
+</script>
+
+<body>
+    <div id="belajar"></div>
+    <div class="bohong"></div>
+    <script>
+        document.getElementById("belajar").innerHTML = "Wira Sukma Saputra";
+        document.getElementsByClassName("bohong")[0].innerHTML = "Dia sebenarnya suka";
+    </script>
+</body>
+
+</html>

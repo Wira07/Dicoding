@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS simple animation</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        ul li {
+            font-size: 16px;
+            font-weight: 600;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 15px;
+            padding: 5px 0px;
+            margin: 10px 0px;
+            transition: all 0.5s ease-in;
+        }
+
+        .btn-red {
+            border: 2px solid #F0514E;
+            color: #F0514E;
+        }
+
+        .btn-green {
+            border: 2px solid #f0514E;
+            color: #f0514E;
+        }
+
+        .btn-red:hover {
+            box-shadow: #f0514E 100px 0 0 2px inset;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li class="btn-red">RED BUTTON</li>
+        <li class="btn-green">GREEN BUTTON</li>
+        <li class="btn-red">YELLOE BUTTON</li>
+        <li class="btn-red">PINK BUTTON</li>
+    </ul>
+</body>
+
+</html>

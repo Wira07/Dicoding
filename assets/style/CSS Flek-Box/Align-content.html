@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 800px;
+            height: 300px;
+            margin: 30px auto;
+            border: 5px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .kotak {
+            width: 120px;
+            /* height: 120px; */
+            background-color: blue;
+            text-align: center;
+            line-height: 120px;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: monospace;
+            margin: 3px;
+            /* flex-grow: 3; */
+        }
+
+        .container div.satu {
+            flex-grow: 6;
+            align-self: flex-start;
+            order: 2;
+        }
+
+        .container div.dua {
+            flex-grow: 6;
+            align-self: flex-end;
+            order: 3;
+        }
+
+        .container div.tiga {
+            flex-grow: 6;
+            align-self: stretch;
+        }
+
+        .container div.lima {
+            align-self: baseline;
+            font-size: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="kotak satu">1</div>
+        <div class="kotak dua">2</div>
+        <div class="kotak tiga">3</div>
+        <div class="kotak empat">4</div>
+        <div class="kotak lima">5</div>
+    </div>
+</body>
+
+</html>

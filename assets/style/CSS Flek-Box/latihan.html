@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 800px;
+            height: 250px;
+            border: 5px solid black;
+            margin: 30px auto;
+            border-radius: 10px;
+            display: flex;
+        }
+
+        .kotak {
+            border-radius: 5px;
+            background-color: green;
+            border: 5px solid black;
+            margin: 5px;
+        }
+
+        .box {
+            flex-grow: 1;
+        }
+
+        .box2 {
+            flex-grow: 2;
+        }
+
+        .box3 {
+            flex-grow: 1;
+        }
+
+        .belakang {
+            width: 800px;
+            border: 5px solid black;
+            margin: 50px auto;
+            border-radius: 10px;
+            padding: 30px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .wira {
+            background-color: grey;
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+            font-size: 150px;
+        }
+
+        .belajar {
+            width: 800px;
+            margin: 50px auto;
+            border-radius: 10px;
+            display: flex;
+            border: 5px solid black;
+            padding: 10px;
+            justify-content: space-between;
+        }
+
+        .sabuk {
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            margin: 5px;
+        }
+
+        .bermain {
+            width: 800px;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .bulat {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 5px solid black;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="kotak box"></div>
+        <div class="kotak box2"></div>
+        <div class="kotak box3"></div>
+    </div>
+    <div class="belakang">
+        <div class="wira one"></div>
+        <div class="wira one2"></div>
+        <div class="wira one3"></div>
+    </div>
+    <div class="belajar">
+        <div class="sabuk putih"></div>
+        <div class="sabuk hitam"></div>
+        <div class="sabuk kuning"></div>
+    </div>
+    <div class="bermain">
+        <div class="bulat bahan"></div>
+        <div class="bulat bahan2"></div>
+        <div class="bulat bahan3"></div>
+    </div>
+</body>
+
+</html>
