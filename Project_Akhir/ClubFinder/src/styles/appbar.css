@@ -1,0 +1,33 @@
+.app-bar {
+  padding: 16px;
+  width: 100%;
+  background-color: cornflowerblue;
+  color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.app-bar img {
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  animation: img 1s;
+}
+@keyframes img {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(1);
+  }
+}
+.app-bar h2 {
+  margin-top: 20px;
+  float: right;
+  margin-right: 15px;
+}
+.clear {
+  clear: left;
+}

@@ -23,15 +23,14 @@
  *    Kemudian isi dengan nilai "favorite drink" dari properti object restaurant
  */
 
-
 // TODO
 
 const restaurant = {
-    "name": "Restoran Nur",
-    "city": "Lahat",
-    "favorite drink": "Thai Tea",
-    "favorite food": "burgers",
-    "isVegan": false,
+  name: "Restoran Nur",
+  city: "Lahat",
+  "favorite drink": "Thai Tea",
+  "favorite food": "burgers",
+  isVegan: false,
 };
 const name = restaurant["name"];
 const favoriteDrink = restaurant["favorite drink"];
@@ -41,7 +40,7 @@ console.log(favoriteDrink);
  * Jangan hapus kode di bawah ini
  */
 module.exports = {
-    restaurant,
-    name,
-    favoriteDrink
+  restaurant,
+  name,
+  favoriteDrink,
 };

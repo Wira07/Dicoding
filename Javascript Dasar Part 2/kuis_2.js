@@ -36,37 +36,25 @@
 
  */
 
-
-
 function scoreChecker(score) {
+  // TODO
 
-    let result;
+  if (score >= 90) {
+    result = "Selamat! Anda mendapatkan nilai A.";
+  } else if (score >= 80) {
+    result = "Anda mendapatkan nilai B.";
+  } else if (score >= 70) {
+    result = "Anda mendapatkan nilai C.";
+  } else if (score >= 60) {
+    result = "Anda mendapatkan nilai D.";
+  } else if (score < 60) result = "Anda mendapatkan nilai E.";
 
+  // Jangan hapus kode ini
 
-
-    // TODO
-
-    if (score >= 90) {
-        result = "Selamat! Anda mendapatkan nilai A.";
-    } else if (score >= 80) {
-        result = "Anda mendapatkan nilai B.";
-    } else if (score >= 70) {
-        result = "Anda mendapatkan nilai C.";
-    } else if (score >= 60) {
-        result = "Anda mendapatkan nilai D."
-    } else if (score < 60) {
-        result = "Anda mendapatkan nilai E.";
-    }
-
-
-
-    // Jangan hapus kode ini
-
-    return result;
-
+  return result;
 }
 
-console.log(scoreChecker(85))
+console.log(scoreChecker(85));
 
 /**
 

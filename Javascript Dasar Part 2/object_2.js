@@ -2,7 +2,7 @@ const spaceship = {
   name: "Millenium Falcon",
   manufacturer: "Corellian Engineering Corporation",
   maxSpeed: 1200,
-  color: "Light gray"
+  color: "Light gray",
 };
 
 spaceship.color = "Glossy red";
@@ -23,18 +23,18 @@ const daerah = {
   kedua: "saya lagi belajar javascript",
   ketiga: "kamu adalah aku yang sedang belajar bahasa inggris",
   isAge: 20,
-  "Hai, Selanat datang ": "di negara indonesia"
+  "Hai, Selanat datang ": "di negara indonesia",
 };
 
-console.log(` mahasiswa uniku ${daerah.pertama} ${daerah.isAge}`)
-console.log(` mahasiswa unisa ${daerah.kedua}`)
-console.log(`saya sedang ${daerah["Hai, Selamat datang"]}`)
+console.log(` mahasiswa uniku ${daerah.pertama} ${daerah.isAge}`);
+console.log(` mahasiswa unisa ${daerah.kedua}`);
+console.log(`saya sedang ${daerah["Hai, Selamat datang"]}`);
 
 const spaceship = {
   name: "Millenium Falcon",
   manufacturer: "Corellian Engineering Corporation",
   maxSpeed: 1200,
-  color: "Light gray"
+  color: "Light gray",
 };
 
 spaceship.color = "Glossy red";

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container {
+        width: 100%;
+        height: 500px;
+        padding: 50px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        margin: 0 20px;
+        box-shadow: 0 0 5px 5px rgb(83, 83, 90);
+        transition: 0.5s all;
+      }
+      .box p {
+        margin-top: 20px;
+      }
+      .box:hover {
+        z-index: 2;
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="../../image/bosscha.jpg" alt="bandung" />
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maxime odit nihil architecto nemo recusandae libero voluptatibus nulla autem ad ea odio, voluptates quae modi, soluta illum quam repudiandae necessitatibus!</p>
+        <span class="baca_selengkapnya">Baca Selengkapnya....</span>
+      </div>
+      <div class="box">
+        <img src="../../image/bosscha.jpg" alt="bandung" />
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maxime odit nihil architecto nemo recusandae libero voluptatibus nulla autem ad ea odio, voluptates quae modi, soluta illum quam repudiandae necessitatibus!</p>
+      </div>
+      <div class="box">
+        <img src="../../image/bosscha.jpg" alt="bandung" />
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maxime odit nihil architecto nemo recusandae libero voluptatibus nulla autem ad ea odio, voluptates quae modi, soluta illum quam repudiandae necessitatibus!</p>
+      </div>
+      <div class="box">
+        <img src="../../image/bosscha.jpg" alt="bandung" />
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maxime odit nihil architecto nemo recusandae libero voluptatibus nulla autem ad ea odio, voluptates quae modi, soluta illum quam repudiandae necessitatibus!</p>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".pesan").hide();
+        $(".baca_selengkapnya").click(function () {
+          $(".pesan").slideDown("slow");
+          $(this).hide();
+        });
+      });
+    </script>
+  </body>
+</html>

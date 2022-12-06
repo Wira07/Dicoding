@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+    <style>
+      p {
+        color: rgb(43, 4, 4);
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-<body>
+      p::selection {
+        color: rgb(255, 255, 255);
+        background-color: green;
+      }
+    </style>
+    <script>
+      let wira = {
+        firstname: "wira sukma saputra",
+        lastname: "uniku jaya",
+        age: 17,
+        color: red,
+      };
+      console.log("halo, nama saya" + wira.firstname);
+    </script>
+  </head>
 
-</body>
-
+  <body>
+    <details>
+      <summary>Wira Sukma Saputra</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis maiores amet ea placeat totam eos et, veniam illo quidem laudantium non accusantium. Ipsa temporibus natus impedit hic placeat quia?</p>
+    </details>
+  </body>
 </html>

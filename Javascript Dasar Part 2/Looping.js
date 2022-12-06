@@ -25,3 +25,12 @@
 // const language = 'JavaScript';
 
 // console.log(`Hello $name. Welcome to $language!`);
+
+const wira = {
+  nama: "wira sukma saputra",
+  nim: 20210810075,
+  age: 20,
+  alamat: "cijoho landeuh",
+};
+
+const dasarnya = {nama, nim, age, alamat} = wira;

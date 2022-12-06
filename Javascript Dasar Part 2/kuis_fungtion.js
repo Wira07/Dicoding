@@ -20,25 +20,16 @@
  *    power(4, 0.5) // 2
  */
 
-
 // TODO
 const minimal = function (a, b) {
-
-    if (a > b) {
-
-        return b;
-
-    } else if (a < b) {
-
-        return a;
-
-    } else {
-
-        return a;
-
-    }
-
-}
+  if (a > b) {
+    return b;
+  } else if (a < b) {
+    return a;
+  } else {
+    return a;
+  }
+};
 console.log(minimal(1, 4));
 const power = (a, b) => a ** b;
 console.log(power(3, 3));
@@ -47,6 +38,6 @@ console.log(power(3, 3));
  */
 
 module.exports = {
-    minimal,
-    power
+  minimal,
+  power,
 };
